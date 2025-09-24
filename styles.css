@@ -30,8 +30,12 @@ html, body {
 }
 
 .rightContainer {
-    background-color: white;
+    display: flex;
     width: 65%;
+    padding: 10vh;
+    background-color: white;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .banner {
@@ -64,4 +68,21 @@ html, body {
 
 .footer a:link {
     color: white;
+}
+
+.rightContainer h1 {
+    font-family: 'OdinFont', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.topHeader {
+    font-family:'Times New Roman', Times, serif;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 20px;
+    justify-content: start;
 }
