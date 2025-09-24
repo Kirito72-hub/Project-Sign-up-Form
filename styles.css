@@ -26,7 +26,6 @@ html, body {
     width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
@@ -43,6 +42,7 @@ html, body {
     color: white;
     text-shadow: 2px 2px 4px #000000;
     background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 150px;
 }
 
 .banner img {
@@ -53,4 +53,15 @@ html, body {
 .banner h2 {
     font-size: 3rem;
     font-family: 'OdinFont', sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.footer a:link {
+    color: white;
 }
