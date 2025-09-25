@@ -7,7 +7,6 @@
 
 html, body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: antiquewhite;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -32,9 +31,9 @@ html, body {
 .rightContainer {
     display: flex;
     width: 65%;
-    background-color: white;
     flex-direction: column;
     justify-content: space-around;
+    background-color: whitesmoke;
 }
 
 .banner {
@@ -80,7 +79,7 @@ html, body {
 }
 
 .middle {
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 form {
@@ -94,4 +93,8 @@ form .group {
     display: flex;
     flex-direction: column;
     width: 250PX;
+}
+
+.topHeader, .middle, .bottom {
+    padding: 5vh;
 }
