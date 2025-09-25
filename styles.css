@@ -32,7 +32,6 @@ html, body {
 .rightContainer {
     display: flex;
     width: 65%;
-    padding: 10vh;
     background-color: white;
     flex-direction: column;
     justify-content: space-around;
@@ -81,8 +80,18 @@ html, body {
 }
 
 .middle {
+    background-color: whitesmoke;
+}
+
+form {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 100px 20px;
-    justify-content: start;
+    grid-template-columns: .4fr .4fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px 0PX;
+}
+
+form .group {
+    display: flex;
+    flex-direction: column;
+    width: 250PX;
 }
