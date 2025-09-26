@@ -104,6 +104,15 @@ form .group {
     font-size: 1rem;
 }
 
+input[type="password"]:invalid, input[type="CONFIRM PASSWORD"]:invalid {
+    border: 2px solid #b60404;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #3f52f5;
+}
+
 .topHeader, .middle, .bottom {
     padding: 3vh;
 }
